@@ -1,4 +1,5 @@
 # Autoencoders_basics
+source - https://blog.keras.io/building-autoencoders-in-keras.html
 # Autoencoder using simple neural networks
 Autoencoderssimple.py contains a program to build a simple autoencoder using two dense layers, one of which(encoder) takes input an image 
 and returns a layer with fewer dimensions (32), while the other(decoder) takes input this reduced version and outputs a layer of the same 
