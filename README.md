@@ -7,6 +7,7 @@ size as of the input.
 
 ### This architecture of the simple neuron is as described in the image below - 
 #### the input and output layers have 784 units(28*28), while the encoding layers have 32 units.
+(image linke - https://static.packt-cdn.com/products/9781789138900/graphics/afb219b7-96dc-470a-ab89-f49eadb8fd5b.png)
 ![](https://static.packt-cdn.com/products/9781789138900/graphics/afb219b7-96dc-470a-ab89-f49eadb8fd5b.png)
 
 
