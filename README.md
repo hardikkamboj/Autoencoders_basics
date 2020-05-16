@@ -17,10 +17,15 @@ size as of the input.
 #### the first row includes the test images, while the images below it shows the final images given after encoding-decoding.
 ![](simple_autoencoder.png)
 
-# Autoencoder using deep neural networks
+# Autoencoder using deep neural networks 
+https://github.com/hardikkamboj/Autoencoders_basics/blob/master/autoencoders_deep_neural_networks.py
 Next we build another program, which takes input and gives output like the previous model, the only differnce is that instead of having
 one leayer each for both encoders and decoders, the layers are increased to three layers each for encoder and decoder.
 
 The image architecture is similar to - 
 (image link - https://static.packt-cdn.com/products/9781787121089/graphics/B12043_04_06.png)
 ![](https://static.packt-cdn.com/products/9781787121089/graphics/B12043_04_06.png)
+
+Training with this model for 100 epochs we have loss of 0.096 (which is better than our previous model)
+Also, we can see the changes in the decoded images
+![](deep_autoencoders.png)
