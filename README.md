@@ -16,3 +16,11 @@ size as of the input.
 ### since the model is trained on mnist dataset, it will work on data similar to mnist. 
 #### the first row includes the test images, while the images below it shows the final images given after encoding-decoding.
 ![](simple_autoencoder.png)
+
+# Autoencoder using deep neural networks
+Next we build another program, which takes input and gives output like the previous model, the only differnce is that instead of having
+one leayer each for both encoders and decoders, the layers are increased to three layers each for encoder and decoder.
+
+The image architecture is similar to - 
+(image link - https://static.packt-cdn.com/products/9781787121089/graphics/B12043_04_06.png)
+![](https://static.packt-cdn.com/products/9781787121089/graphics/B12043_04_06.png)
