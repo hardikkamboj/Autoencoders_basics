@@ -37,7 +37,7 @@ Also, we can see the changes in the decoded images
 The above mentioned methods are not much successful in capturing the features of images. To use autoencoders on images, we use 
 convolutional neural networks to encode and decode image features.
 The architecture is similar to one given below -  
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Fconvolutional-autoencoders-for-image-noise-reduction-32fce9fc1763&psig=AOvVaw284j7R2N0HN_zfLnzXOE96&ust=1589775715318000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiGz6KGuukCFQAAAAAdAAAAABAD)
+![](https://i2.wp.com/sefiks.com/wp-content/uploads/2018/03/convolutional-autoencoder.png?w=1818&ssl=1)
 Through this model, we have achieved the best loss value so far, the loss is approx. __ for 20 epochs.
 
 # Denoising using Autoencoders
