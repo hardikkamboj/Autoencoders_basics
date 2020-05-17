@@ -34,12 +34,14 @@ Also, we can see the changes in the decoded images
 ![](deep_autoencoders.png)
 
 # Autoencoder using CNN
+https://github.com/hardikkamboj/Autoencoders_basics/blob/master/autoencoders_cnn.py
 The above mentioned methods are not much successful in capturing the features of images. To use autoencoders on images, we use 
 convolutional neural networks to encode and decode image features.
 The architecture is similar to one given below -  
 ![](https://i2.wp.com/sefiks.com/wp-content/uploads/2018/03/convolutional-autoencoder.png?w=1818&ssl=1)
-Through this model, we have achieved the best loss value so far, the loss is approx. __ for 20 epochs.
+Through this model, we have achieved the best loss value so far, the loss is approx. 0.079 for 20 epochs.
 
 # Denoising using Autoencoders
+https://github.com/hardikkamboj/Autoencoders_basics/blob/master/image%20denoising.py
 The above built model will be used to built a model that will de-noise any gievn noisy image. Since Autoencoders are data driven, the
 model will be trained, mapping noisy image to the clear image.
