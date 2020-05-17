@@ -17,6 +17,9 @@ size as of the input.
 #### the first row includes the test images, while the images below it shows the final images given after encoding-decoding.
 ![](simple_autoencoder.png)
 
+In the second model of the program we used regularization, using regularization, it forces the encoder images to be sparse.
+Therefore the advantage of using regularization is getting sparse matrix.
+
 # Autoencoder using deep neural networks 
 https://github.com/hardikkamboj/Autoencoders_basics/blob/master/autoencoders_deep_neural_networks.py
 Next we build another program, which takes input and gives output like the previous model, the only differnce is that instead of having
@@ -29,3 +32,14 @@ The image architecture is similar to -
 Training with this model for 100 epochs we have loss of 0.096 (which is better than our previous model)
 Also, we can see the changes in the decoded images
 ![](deep_autoencoders.png)
+
+# Autoencoder using CNN
+The above mentioned methods are not much successful in capturing the features of images. To use autoencoders on images, we use 
+convolutional neural networks to encode and decode image features.
+The architecture is similar to one given below -  
+![](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Fconvolutional-autoencoders-for-image-noise-reduction-32fce9fc1763&psig=AOvVaw284j7R2N0HN_zfLnzXOE96&ust=1589775715318000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiGz6KGuukCFQAAAAAdAAAAABAD)
+Through this model, we have achieved the best loss value so far, the loss is approx. __ for 20 epochs.
+
+# Denoising using Autoencoders
+The above built model will be used to built a model that will de-noise any gievn noisy image. Since Autoencoders are data driven, the
+model will be trained, mapping noisy image to the clear image.
