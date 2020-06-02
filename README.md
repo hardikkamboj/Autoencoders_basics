@@ -45,3 +45,4 @@ Through this model, we have achieved the best loss value so far, the loss is app
 https://github.com/hardikkamboj/Autoencoders_basics/blob/master/image%20denoising.py
 The above built model will be used to built a model that will de-noise any gievn noisy image. Since Autoencoders are data driven, the
 model will be trained, mapping noisy image to the clear image.
+![](noise_reduction.png)
